@@ -1,4 +1,10 @@
 /api/v1/sign_up
 POST
-{"user":{"email": "karamnop@geeksters.co", "password": "123456", "password_confirmation": "123456", "last_name":"karam", "first_name":"karam", "phone": "0123445555", "country": "maroc","function": "aaaaaaaaaaaaaaa", "activity_area": "ddddddd", "company": "company", "logo":"url"}, "auth": {"os": "web"}}
+{"user":{"email": "karamnop@geeksters.co", "password": "123456", "password_confirmation": "123456", "last_name":"karam", "first_name":"karam", "phone": "0123445555", "country": "maroc","function": "aaaaaaaaaaaaaaa", "activity_area": "ddddddd", "company": "company", "logo":"url"}, "auth": {"os": "web", "language": "en"}}
+
+
+
+/api/v1/sign_in
+POST
+{"user":{"email": "karamnop@geeksters.co", "password": "123456"}, "auth": {"os": "web", "language": "en"}}
 
