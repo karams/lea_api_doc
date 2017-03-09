@@ -1,0 +1,8 @@
+/api/v1/create_base
+POST
+{"base": {"name":"base de test", "goal":"un test", "nb_sites": 1, "columns_names":["name", "description"], "columns_types":["string", "text"]}, "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"}
+
+
+/api/v1/base_details?access_token=0b4f360d468833ea2416249479c80f6e8126f4f
+GET
+(Or send the token in the header "X-Access-Token")
