@@ -8,3 +8,15 @@ POST
 POST
 {"user":{"email": "karamnop@geeksters.co", "password": "123456"}, "auth": {"os": "web", "language": "en"}}
 
+
+
+
+/api/v1/forgot_password
+POST
+{"user":{"email": "karamnop@geeksters.co"}}
+
+
+
+/api/v1/reset_the_password
+PUT
+{"user":{"reset_password_token": "j6RPqsrAErWcyiez33PU", "password": "hassan123487", "password_confirmation": "hassan123487"}}
