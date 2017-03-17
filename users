@@ -20,3 +20,9 @@ POST
 /api/v1/reset_the_password
 PUT
 {"user":{"reset_password_token": "j6RPqsrAErWcyiez33PU", "password": "hassan123487", "password_confirmation": "hassan123487"}}
+
+
+/api/v1/invite_user
+POST
+{"user": {"email":"email5@gmai.com", "role":"manager"}, "message": {"subject": "my subject", "body":"my body message"}, "department": {"department_id": "4"}, "base": {"base_id": "50"}, "access_token": "c844e29c4866dc8c2d2cbfb11b51ef09860ac469"}
+
