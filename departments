@@ -1,3 +1,8 @@
 /api/v1/create_department
 POST
 { "department": {"name": "production"},  "base": {"base_id": "50"}, "access_token": "c844e29c4866dc8c2d2cbfb11b51ef09860ac469"}
+
+
+/api/v1/destroy_department
+POST
+{ "department": {"id": "4"},  "base": {"base_id": "50"}, "access_token": "c844e29c4866dc8c2d2cbfb11b51ef09860ac469"}

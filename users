@@ -26,3 +26,9 @@ PUT
 POST
 {"user": {"email":"email5@gmai.com", "role":"manager"}, "message": {"subject": "my subject", "body":"my body message"}, "department": {"department_id": "4"}, "base": {"base_id": "50"}, "access_token": "c844e29c4866dc8c2d2cbfb11b51ef09860ac469"}
 
+
+
+/api/v1/update_user
+PUT
+{"user":{"email": "okeyyyyyyyy@geeksters.co", "last_name":"yeeeeeeeesss", "first_name":"pababa", "phone": "tchouper", "country": "nasss","function": "kokoko", "activity_area": "daeeeee", "company": "hhhhhhhhhhhhhh", "logo":"mmmmmmmmmmmmmm"}, "access_token": "c844e29c4866dc8c2d2cbfb11b51ef09860ac469"}
+
