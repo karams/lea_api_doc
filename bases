@@ -6,3 +6,8 @@ POST
 /api/v1/base_details?access_token=0b4f360d468833ea2416249479c80f6e8126f4f
 GET
 (Or send the token in the header "X-Access-Token")
+
+
+/api/v1/base_users?access_token=cae751829df35ece93070e5dddf4942762c8746c&base_id=2
+GET
+(Or send the token in the header "X-Access-Token")
