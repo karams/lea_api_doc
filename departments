@@ -6,3 +6,8 @@ POST
 /api/v1/destroy_department
 POST
 { "department": {"id": "4"},  "base": {"base_id": "50"}, "access_token": "c844e29c4866dc8c2d2cbfb11b51ef09860ac469"}
+
+
+/api/v1/departments?access_token=cae751829df35ece93070e5dddf4942762c8746c&base_id=2
+GET
+(Or send the token in the header "X-Access-Token")
