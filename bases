@@ -3,11 +3,15 @@ POST
 {"base": {"name":"base de test", "goal":"un test", "nb_sites": 1}, "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"}
 
 
-/api/v1/base_details?access_token=0b4f360d468833ea2416249479c80f6e8126f4f
+
+*******Return list of bases of the current user*******
+/api/v1/user_bases?access_token=0b4f360d468833ea2416249479c80f6e8126f4f
 GET
 (Or send the token in the header "X-Access-Token")
 
 
+
+*******Return list of users of the a specific base*******
 /api/v1/base_users?access_token=cae751829df35ece93070e5dddf4942762c8746c&base_id=2
 GET
 (Or send the token in the header "X-Access-Token")

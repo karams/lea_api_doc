@@ -1,3 +1,19 @@
+******Create a column for a specific base******
+******parameters columns_prefixs, columns_requireds, columns_default_values are optional******
+******columns_names: list of columns names******
+******columns_types: list of columns types******
+******columns_prefixs: prefixs (there is no suffix in the moquaps)******
+******columns_requireds: accept array of booleans (true, false)******
+******columns_default_values: accept array of string, integer...******
+******columns_choices: accept array of array******
+******columns_uniqueness: accept array of booleans (true, false)******
 /api/v1/create_columns
 POST
-{"base": {"base_id": 7, "columns_names":["farid", "ddddd"], "columns_types":["string", "text"]}, "access_token": "128b467f103187c271cfc931a5b9dc7b434b8196"}
+{"base": {"base_id": 2, "columns_names":["badazz", "lolop"], "columns_types":["integer", "text"], "columns_prefixs":["bodods", ""], "columns_requireds":[true, false], "columns_default_values":["", ""], "columns_choices":[["hassan", "farid"],[]], "columns_uniqueness":[true, false]}, "access_token": "950c916e36cb0e7bdb920df37aaf8096a3a53e2c"}
+
+
+
+******get all columns for a specific base*****
+/api/v1/base_columns?access_token=cae751829df35ece93070e5dddf4942762c8746c&base_id=2
+GET
+(Or send the token in the header "X-Access-Token")
