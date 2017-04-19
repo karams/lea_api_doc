@@ -7,9 +7,10 @@
 ******columns_default_values: accept array of string, integer...******
 ******columns_choices: accept array of array******
 ******columns_uniqueness: accept array of booleans (true, false)******
+******save_data: true to save data from file when making import file*****
 /api/v1/create_columns
 POST
-{"base": {"base_id": 2, "columns_names":["badazz", "lolop"], "columns_types":["integer", "text"], "columns_prefixs":["bodods", ""], "columns_requireds":[true, false], "columns_default_values":["", ""], "columns_choices":[["hassan", "farid"],[]], "columns_uniqueness":[true, false]}, "access_token": "950c916e36cb0e7bdb920df37aaf8096a3a53e2c"}
+{"base": {"base_id": 2, "save_data":true, "columns_names":["badazz", "lolop"], "columns_types":["integer", "text"], "columns_prefixs":["bodods", ""], "columns_requireds":[true, false], "columns_default_values":["", ""], "columns_choices":[["hassan", "farid"],[]], "columns_uniqueness":[true, false]}, "access_token": "950c916e36cb0e7bdb920df37aaf8096a3a53e2c"}
 
 
 
