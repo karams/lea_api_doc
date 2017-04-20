@@ -24,3 +24,10 @@ POST
 "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"
 "base_id": 3
 "base_file": "A valid file"
+
+
+
+*******choose base options********
+/api/v1/change_base_options
+PUT
+{"base": {"base_id": 3, "mail_option": true, "bos_option":false, "model8d_option": true}, "access_token": "950c916e36cb0e7bdb920df37aaf8096a3a53e2c"}
