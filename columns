@@ -25,4 +25,12 @@ GET
 
 ******Remove columns of a specific base******
 /api/v1/remove_columns
+POST
 {"base": {"base_id": 2, "columns_ids":[19,20]}, "access_token": "950c916e36cb0e7bdb920df37aaf8096a3a53e2c"}
+
+
+
+******Change exportable columns******
+/api/v1/exportable_columns
+PUT
+{"base": {"base_id": 3, "columns_ids":[21, 22, 23], "exportable_columns":[false, false, false]}, "access_token": "950c916e36cb0e7bdb920df37aaf8096a3a53e2c"}
