@@ -1,7 +1,7 @@
 ******Create a column for a specific base******
 ******parameters columns_prefixs, columns_requireds, columns_default_values are optional******
 ******columns_names: list of columns names******
-******columns_types: list of columns types******
+******columns_types: list of columns types, Accepted types: string, text, integer, float, image, sequance_number, date******
 ******columns_prefixs: prefixs (there is no suffix in the moquaps)******
 ******columns_requireds: accept array of booleans (true, false)******
 ******columns_default_values: accept array of string, integer...******
