@@ -1,0 +1,43 @@
+---------------------------------------------------------------
+--- Create indocator
+---------------------------------------------------------------
+
+/api/v1/indicators
+POST
+{
+  indicator : {
+    name : String,
+    startDate : Date,
+    endDate : Date,
+    type : String, (One of : "default" "custom")
+    objective : {
+      type : String, (One of : "fixe" "variable")
+      steps : [ { startDate : Date, endDate : Date, value : Number } ], (Only if type == "variable")
+      value : Number, (Only if type == "fixe")
+    },
+    cumulativePeriod : Number, (One of 3 6 9 12, can be null)
+    pareto : { id : Number },
+    filter : { id : Number },
+    customFormula : {
+      formula : String, ( Example : "sum $1 / sum $2" )
+      variables : [ { key : String, columnID : Number } ], ( Example : [ { "$1", 10 }, { "$2", 15 } ] )
+      percent : Boolean,
+    }, ( can be null )
+  },
+
+  base : { id : Number },
+
+  access_token: String,
+}
+
+
+---------------------------------------------------------------
+--- Get DB indocators
+---------------------------------------------------------------
+
+/api/v1/indicators
+GET
+{
+  base : { id : Number },
+  access_token: String,
+}
