@@ -2,7 +2,7 @@
 --- Create indocator
 ---------------------------------------------------------------
 
-/api/v1/indicators
+/api/v1/create_indicator
 POST
 {
   indicator : {
@@ -24,7 +24,7 @@ POST
     formula_percent : Boolean, ( can be null )
   },
 
-  base : { id : Number },
+  base : { base_id : Number },
 
   access_token: String,
 }
@@ -37,6 +37,6 @@ POST
 /api/v1/indicators
 GET
 {
-  base : { id : Number },
-  access_token: String,
+  base_id: Number ,
+  access_token: String
 }
