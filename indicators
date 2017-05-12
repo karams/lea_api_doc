@@ -19,8 +19,7 @@ POST
     pareto_column_id : Number ,
     filter_column_id : Number ,
 
-    formula_combination : String, ( Example : "sum $1 / sum $2" ) ( can be null )
-    formula_variables : [ { key : String, columnID : Number } ], ( Example : [ { "$1", 10 }, { "$2", 15 } ] ) ( can be null )
+    formula_combination : String, ( Example : "sum(culumn_1) / sum(culumn_2)" ) ( can be null )
     formula_percent : Boolean, ( can be null )
   },
 
@@ -39,4 +38,18 @@ GET
 {
   base_id: Number ,
   access_token: String
+}
+
+
+
+---------------------------------------------------------------
+--- Get indicator result
+---------------------------------------------------------------
+
+/api/v1/indicator_result'
+GET 
+{
+access_token: 06c8111d1f64f50dfd7545a349315afd8ffe6699,
+base_id: 10,
+indicator_id: 1
 }
