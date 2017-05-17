@@ -35,10 +35,23 @@ PUT
 
 
 *******get base data********
-/api/v1/base_data
+/api/v1/base/data
+GET
 {
 	"base_id":14,
 	"access_token": "06c8111d1f64f50dfd7545a349315afd8ffe6699",
 	"page":84,
 	"per_page": 50 (default 100)
 }
+
+
+*******insert one row to base********
+/api/v1/base/row
+POST
+{"base":{"base_id":14}, "values":{"column_37": 4 , "column_39": "ooooooodsds"}, "access_token":"243ddefeaed1980c631f24b7ec166ec9e93bc08c"}
+
+
+*******remove one row from base********
+/api/v1/base/row
+delete
+{"base":{"base_id":14, "row_id": 2}, "access_token":"128b467f103187c271cfc931a5b9dc7b434b8196"}
