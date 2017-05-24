@@ -64,3 +64,15 @@ delete
 /api/v1/base/row
 put
 {"base":{"base_id":14, "row_id": 10}, "values":{"column_37": 325 , "column_38": "600", "column_39": "yeter"}, "access_token":"128b467f103187c271cfc931a5b9dc7b434b8196"}
+
+
+
+
+
+############################################
+###########*******ROUTE*******##############
+############################################
+/base/data/export
+get
+base_id=NUMBER
+access_token=STRING
