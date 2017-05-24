@@ -45,13 +45,22 @@ GET
 }
 
 
+
 *******insert one row to base********
 /api/v1/base/row
 POST
 {"base":{"base_id":14}, "values":{"column_37": 4 , "column_39": "ooooooodsds"}, "access_token":"243ddefeaed1980c631f24b7ec166ec9e93bc08c"}
 
 
+
 *******remove one row from base********
 /api/v1/base/row
 delete
 {"base":{"base_id":14, "row_id": 2}, "access_token":"128b467f103187c271cfc931a5b9dc7b434b8196"}
+
+
+
+*******Update one row in the base********
+/api/v1/base/row
+put
+{"base":{"base_id":14, "row_id": 10}, "values":{"column_37": 325 , "column_38": "600", "column_39": "yeter"}, "access_token":"128b467f103187c271cfc931a5b9dc7b434b8196"}
