@@ -1,0 +1,6 @@
+
+******get texts*****
+/api/v1/contents
+GET
+{language: "en"}
+
