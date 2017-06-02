@@ -76,3 +76,14 @@ put
 get
 base_id=NUMBER
 access_token=STRING
+
+
+
+
+
+*******Import data from file********
+/api/v1/base/data/import
+post
+"access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"
+"base_id": 3
+"base_file": "A valid file"
