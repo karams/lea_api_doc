@@ -87,3 +87,10 @@ post
 "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"
 "base_id": 3
 "base_file": "A valid file"
+
+
+
+********Pouvoir définir le nombre de chiffres après la virgule************
+/api/v1/base/number_digits
+PUT
+{"base": {"base_id": 4, "nb_digits": 3}, "access_token": "f5c7d08674aa817b49976523da066c92ab61d7b7"}
