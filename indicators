@@ -33,7 +33,7 @@ POST
 --- Get DB indocators
 ---------------------------------------------------------------
 
-/api/v1/indicators
+/api/v1/base_indicators
 GET
 {
   base_id: Number ,
