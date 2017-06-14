@@ -94,3 +94,17 @@ post
 /api/v1/base/number_digits
 PUT
 {"base": {"base_id": 4, "nb_digits": 3}, "access_token": "f5c7d08674aa817b49976523da066c92ab61d7b7"}
+
+
+
+
+********Change model 8d delais************ 
+/base/model/8d/delais
+PUT 
+{"base": {"base_id": 5, "delai_3d": 3, "delai_5d": 10, "delai_8d": 20}, "access_token": "f5c7d08674aa817b49976523da066c92ab61d7b7"}
+
+
+
+
+
+
