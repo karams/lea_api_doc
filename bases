@@ -104,7 +104,11 @@ PUT
 {"base": {"base_id": 5, "delai_3d": 3, "delai_5d": 10, "delai_8d": 20}, "access_token": "f5c7d08674aa817b49976523da066c92ab61d7b7"}
 
 
-
-
+********Show user bases with active subscription************ 
+/base/subscription/active
+GET
+{
+	access_token: f5c7d08674aa817b49976523da066c92ab61d7b7
+}
 
 
