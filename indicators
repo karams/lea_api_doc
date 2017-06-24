@@ -53,3 +53,52 @@ access_token: 06c8111d1f64f50dfd7545a349315afd8ffe6699,
 base_id: 10,
 indicator_id: 1
 }
+
+
+
+---------------------------------------------------------------
+--- delete an indicator
+---------------------------------------------------------------
+
+/api/v1/indicators'
+DELETE 
+{
+  "access_token": "f5c7d08674aa817b49976523da066c92ab61d7b7",
+  "base": {"base_id": 2},
+  "indicator": {"indicator_id": 4}
+}
+
+
+
+---------------------------------------------------------------
+--- update an indicator
+---------------------------------------------------------------
+
+/api/v1/indicators'
+PUT 
+{
+  "indicator": {
+    "indicator_id": 16,
+    "name": "Def2",
+    "start_date": "2017-04-01",
+    "end_date": "2017-6-30",
+    "indicator_type": "default",
+    "objective_type": "variable",
+    "objective_steps": [{
+      "startDate": "2017-06-01",
+      "endDate": "2017-06-15",
+      "value": "509",
+      "$$hashKey": "object:1135"
+    }, {
+      "startDate": "2017-06-16",
+      "endDate": "2017-06-30",
+      "value": "30",
+      "$$hashKey": "object:1175"
+    }],
+    "cumulative_period": null
+  },
+  "base": {
+    "base_id": 5
+  },
+  "access_token": "f5c7d08674aa817b49976523da066c92ab61d7b7"
+}
