@@ -49,7 +49,7 @@ GET
 *******insert one row to base********
 /api/v1/base/row
 POST
-{"base":{"base_id":14}, "values":{"column_37": 4 , "column_39": "ooooooodsds"}, "access_token":"243ddefeaed1980c631f24b7ec166ec9e93bc08c"}
+{"base":{"base_id":14}, "values":{"column_37": 4 , "column_39": "ooooooodsds", "entered_at": "2012-12-12"}, "access_token":"243ddefeaed1980c631f24b7ec166ec9e93bc08c"}
 
 
 
@@ -63,7 +63,7 @@ delete
 *******Update one row in the base********
 /api/v1/base/row
 put
-{"base":{"base_id":14, "row_id": 10}, "values":{"column_37": 325 , "column_38": "600", "column_39": "yeter"}, "access_token":"128b467f103187c271cfc931a5b9dc7b434b8196"}
+{"base":{"base_id":14, "row_id": 10}, "values":{"column_37": 325 , "column_38": "600", "column_39": "yeter", "entered_at": "2012-12-12"}, "access_token":"128b467f103187c271cfc931a5b9dc7b434b8196"}
 
 
 
@@ -89,6 +89,7 @@ post
 "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"
 "base_id": 3
 "base_file": "A valid file"
+"entered_at_alias_index": "provide the index of the column in the file"
 
 
 
