@@ -46,3 +46,14 @@ PUT
 /api/v1/columns
 PUT
 {"base": {"base_id": 5}, "column":{"column_id": 92, "name":"bochkach", "type": "string", "required": false, "default_value": "loll", choices: [], uniqueness: false, prefix: "" }, "access_token": "f5c7d08674aa817b49976523da066c92ab61d7b7"}
+
+
+
+
+******Get list of a column choices******
+/api/v1/columns/choices
+{
+	base_id:5,
+	column_id:80,
+	access_token:f5c7d08674aa817b49976523da066c92ab61d7b7
+}
