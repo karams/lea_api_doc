@@ -30,7 +30,7 @@ POST
 *******choose base options********
 /api/v1/change_base_options
 PUT
-{"base": {"base_id": 3, "mail_option": true, "bos_option":false, "model8d_option": true}, "access_token": "950c916e36cb0e7bdb920df37aaf8096a3a53e2c"}
+{"base": {"base_id": 3, "mail_option": true, "bos_option":false, "model8d_option": true, name:"test", goal: "goal", nb_sites: 4}, "access_token": "950c916e36cb0e7bdb920df37aaf8096a3a53e2c"}
 
 
 
