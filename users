@@ -12,7 +12,7 @@ POST
 
 /api/v1/sign_in
 POST
-{"user":{"email": "karamnop@geeksters.co", "password": "123456"}, "auth": {"os": "web", "language": "en"}}
+{"user":{"email": "karamnop@geeksters.co", "password": "123456"}, "auth": {"os": "web"}}
 
 
 
@@ -36,5 +36,4 @@ POST
 
 /api/v1/update_user
 PUT
-{"user":{"email": "okeyyyyyyyy@geeksters.co", "last_name":"yeeeeeeeesss", "first_name":"pababa", "phone": "tchouper", "country": "nasss","function": "kokoko", "activity_area": "daeeeee", "company": "hhhhhhhhhhhhhh", "logo":"mmmmmmmmmmmmmm"}, "access_token": "c844e29c4866dc8c2d2cbfb11b51ef09860ac469"}
-
+{"user":{"email": "okeyyyyyyyy@geeksters.co", "last_name":"yeeeeeeeesss", "first_name":"pababa", "phone": "tchouper", "country": "nasss","function": "kokoko", "activity_area": "daeeeee", "company": "hhhhhhhhhhhhhh", "logo":"mmmmmmmmmmmmmm", language: "ar" }, "access_token": "c844e29c4866dc8c2d2cbfb11b51ef09860ac469"}
