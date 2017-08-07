@@ -2,3 +2,24 @@
 /api/v1/model8d
 POST
 {"base":{"base_id": 7}, "model8d": {"delai_3d":2, "delai_5d":7, "delai_8d": 26}, "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"}
+
+
+*******add header columns to model 8d*******
+/api/v1/model8d/header_columns
+POST
+{"model8d":{"model8d_id": 7}, "header_columns": [{"column_id": 20, "order":0}, {"column_id": 21, "order":1}, {"column_id": 22, "order":2}], "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"}
+
+
+*******add first fabrication columns to model 8d*******
+/api/v1/model8d/first_fabrication_columns
+POST
+{"model8d":{"model8d_id": 7}, "header_columns": [{"column_id": 40, "order":0}, {"column_id": 31, "order":1}, {"column_id": 55, "order":2}], "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"}
+
+
+
+*******get model8d details*******
+/api/v1/model8d
+GET
+{"base_id":2, 
+ "model8d_id":5, 
+ "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"}
