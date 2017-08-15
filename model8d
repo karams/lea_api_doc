@@ -1,19 +1,21 @@
 *******create model 8d*******
-/api/v1/model8d
+/api/v1/model8d/delays
 POST
 {"base":{"base_id": 7}, "model8d": {"delai_3d":2, "delai_5d":7, "delai_8d": 26}, "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"}
 
 
-*******add header columns to model 8d*******
+
+*******update labels model 8d*******
+/api/v1/model8d/labels
+PUT
+{"base":{"base_id": 7}, "model8d": {"model8d_id":7, "nom_rapport": "nom_rapportsss", "team": "teams",  "field_1": "bobos1", "field_2": "bobos2", "field_3": "bobos3", "field_4": "bobos4", "field_5": "bobos5", "field_6_1": "bobos61", "field_6_2": "field_6_2", "field_6_3": "field_6_3", "field_6_4": "field_6_4", "field_7_1": "field_7_1", "field_7_2": "field_7_2", "field_7_3": "field_7_3", "field_8_1": "bobos81", "field_8_2": "bobos82"}, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
+
+
+
+*******set header columns to model 8d*******
 /api/v1/model8d/header_columns
-POST
-{"model8d":{"model8d_id": 7}, "header_columns": [{"column_id": 20, "order":0}, {"column_id": 21, "order":1}, {"column_id": 22, "order":2}], "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"}
-
-
-*******add first fabrication columns to model 8d*******
-/api/v1/model8d/first_fabrication_columns
-POST
-{"model8d":{"model8d_id": 7}, "header_columns": [{"column_id": 40, "order":0}, {"column_id": 31, "order":1}, {"column_id": 55, "order":2}], "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"}
+PUT
+{"model8d":{"model8d_id": 3, "field1_source_column": 2, "header_columns": [{"column_id": 20, "label":"bobos1" ,"order":1}, {"column_id": 24, "label":"bobos2", "order":2}, {"column_id": 22,"label":"bobos3", "order":3}]}, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
 
 
 
