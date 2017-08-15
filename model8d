@@ -26,6 +26,14 @@ POST
 
 
 
+*******set backups to model 8d*******
+/api/v1/model8d/backups
+POST
+{"model8d":{"model8d_id": 3, "backups": [ "bobos2", "eeeeeeeeee"]}, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
+
+
+
+
 *******get model8d details*******
 /api/v1/model8d
 GET
