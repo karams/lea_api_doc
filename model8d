@@ -19,6 +19,13 @@ POST
 
 
 
+*******set additional columns to model 8d*******
+/api/v1/model8d/additional_columns
+POST
+{"model8d":{"model8d_id": 3, "additional_columns": [{"label":"bobos1" ,"order":1}, {"label":"bobos2", "order":2}, {"label":"bobos3", "order":3}]}, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
+
+
+
 *******get model8d details*******
 /api/v1/model8d
 GET
