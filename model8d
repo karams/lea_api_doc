@@ -14,7 +14,7 @@ PUT
 
 *******set header columns to model 8d*******
 /api/v1/model8d/header_columns
-PUT
+POST
 {"model8d":{"model8d_id": 3, "field1_source_column": 2, "header_columns": [{"column_id": 20, "label":"bobos1" ,"order":1}, {"column_id": 24, "label":"bobos2", "order":2}, {"column_id": 22,"label":"bobos3", "order":3}]}, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
 
 
