@@ -1,5 +1,10 @@
 *******create a 8d incident*******
 /api/v1/8d
 POST
-{"model8d":{"model8d_id": 3}, "8d": {"base_line_id": 53, "users_ids": [1,13,2], "description_field": "updated description", "plan_actions": [{"description": "boboss", "due_date": "12/12/2017", "user_id": 12, "done_at": "12/12/2017"}, {"description": "boboss2", "due_date": "10/12/2017", "user_id": 14, "done_at": "10/12/2017"}], "selected_backups": [{"backup_id": 10, "due_date": "10/12/2017"}, {"backup_id": 12}] }, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
+{"model8d":{"model8d_id": 3}, "8d": {"base_line_id": 53, "users_ids": [1,13,2], "description_field": "updated description", "plan_actions": [{"description": "boboss", "due_date": "12/12/2017", "user_id": 12}, {"description": "boboss2", "due_date": "10/12/2017", "user_id": 14}], "selected_backups": [{"backup_id": 10, "due_date": "10/12/2017"}, {"backup_id": 12}] }, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
 
+
+
+/api/v1/8d
+PUt
+{"8d": {"8d_id": 100,  "selected_backups": [{"backup_id": 10, "due_date": "10/12/2017"}, {"backup_id": 12}] }, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
