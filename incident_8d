@@ -1,10 +1,13 @@
 *******create a 8d incident*******
 /api/v1/8d
 POST
-{"model8d":{"model8d_id": 3}, "8d": {"base_line_id": 53, "users_ids": [1,13,2], "description_field": "updated description", "plan_actions": [{"description": "boboss", "due_date": "12/12/2017", "user_id": 12}, {"description": "boboss2", "due_date": "10/12/2017", "user_id": 14}], "selected_backups": [{"backup_id": 10, "due_date": "10/12/2017"}, {"backup_id": 12}] }, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
+{"model8d":{"model8d_id": 3}, "8d": {"base_line_id": 53, "users_ids": [1,13,2], "description_field": "updated description", "action_plans": [{"description": "boboss", "due_date": "12/12/2017", "user_id": 12}, {"description": "boboss2", "due_date": "10/12/2017", "user_id": 14}], "selected_backups": [{"backup_id": 10, "due_date": "10/12/2017"}, {"backup_id": 12}] }, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
 
 
 
+*******udpdate a 8d incident*******
 /api/v1/8d
-PUt
-{"8d": {"8d_id": 100,  "selected_backups": [{"backup_id": 10, "due_date": "10/12/2017"}, {"backup_id": 12}] }, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
+PUT
+{"8d": {"8d_id": 29, "field_2": "text 2", "field_4": "text 4", "field_5": "text 5", "field_8_1": "text 8_1", "field_8_2": "12/10/2010", "additional_columns_values": [{"additional_column_value_id": 4, "value": "hoho"}, {"additional_column_value_id": 5, "value": "text 2"}],  "action_plans": [{"action_plan_id": 55, "done_at": "12/12/2017"}, {"action_plan_id": 56, "done_at": "12/12/2017"}],  "selected_backups": [{"selected_backup_id": 50, "reference": "un text" , "done_at": "10/12/2017"}, {"selected_backup_id": 51, "reference": "un text" , "done_at": "10/12/2017"}] }, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
+
+
