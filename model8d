@@ -8,7 +8,7 @@ POST
 *******update labels model 8d*******
 /api/v1/model8d/labels
 PUT
-{"base":{"base_id": 7}, "model8d": {"model8d_id":7, "nom_rapport": "nom_rapportsss", "team": "teams",  "field_1": "bobos1", "field_2": "bobos2", "field_3": "bobos3", "field_4": "bobos4", "field_5": "bobos5", "field_6_1": "bobos61", "field_6_2": "field_6_2", "field_6_3": "field_6_3", "field_6_4": "field_6_4", "field_7_1": "field_7_1", "field_7_2": "field_7_2", "field_7_3": "field_7_3", "field_8_1": "bobos81", "field_8_2": "bobos82"}, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
+{"base":{"base_id": 7}, "model8d": {"model8d_id":7, "nom_rapport": "nom_rapportsss", "team": "teams",  "field_1": "bobos1", "field_2": "bobos2", "field_3": "bobos3", "field_4": "bobos4", "field_5": "bobos5", "field_6_1": "bobos61", "field_6_2": "field_6_2", "field_6_3": "field_6_3", "field_6_4": "field_6_4", "field_7_1": "field_7_1", "field_7_2": "field_7_2", "field_7_3": "field_7_3", "field_7_4": "field_7_4", "field_8_1": "bobos81", "field_8_2": "bobos82"}, "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"}
 
 
 
@@ -40,3 +40,11 @@ GET
 {"base_id":2, 
  "model8d_id":5, 
  "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"}
+
+
+
+ *******get model8ds*******
+ /api/v1/model8ds
+ GET
+ {"base_id":2,  
+  "access_token": "0b4f360d468833ea2416249479c80f6e8126f42f"}
