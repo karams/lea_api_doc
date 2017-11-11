@@ -1,0 +1,37 @@
+*******create the bos model*******
+/api/v1/model_bos
+POST
+{
+  "model_bos": {
+    "first_delay": 10,
+    "second_delay": 9
+  },
+  "base": {
+    	"base_id": "7"
+  },
+  "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"
+}
+
+
+*******Update the bos model*******
+/api/v1/model_bos
+PUT
+{
+  "model_bos": {
+    "first_delay": 10,
+    "second_delay": 9
+  },
+  "base": {
+    	"base_id": "7"
+  },
+  "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"
+}
+
+
+*******get the bos model*******
+/api/v1/model_bos
+GET
+{
+    "base_id": "7",
+  	"access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"
+}
