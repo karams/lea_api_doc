@@ -1,0 +1,21 @@
+*******create a bos with indicator*******
+/api/v1/boses
+POST
+{
+  "bos": {
+    "indicator_id": 32,
+    "model_bos_id": 1
+  },
+  "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"
+}
+
+
+
+*******get all bos*******
+/api/v1/boses
+GET
+{
+    "base_id": "7",
+  	"access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"
+}
+
