@@ -19,3 +19,31 @@ GET
   	"access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"
 }
 
+
+*******Create bos actions********
+/api/v1/boses/actions
+POST
+
+{
+  "bos_action": {
+    "value": "rabat",
+    "action": "test action text",
+    "target": "18/12/2017",
+    "responsable_id": 1
+  },
+  "bos": {
+    "bos_id": 3
+  },
+  "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"
+}
+
+
+
+*******get all bos actions of a BOS********
+/api/v1/boses/actions
+GET
+
+{
+	"bos_id": 3,
+	"access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"
+}
