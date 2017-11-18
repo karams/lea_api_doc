@@ -61,3 +61,12 @@ PUT
   },
   "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"
 }
+
+
+*******Get the monitor of a bos action********
+GET
+/api/v1/boses/actions/monitor
+{
+  bos_action_id=9,
+  access_token=c87f57207dcae62831cffa55e6a4beaf8caf3d5a
+}
