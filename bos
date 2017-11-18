@@ -47,3 +47,17 @@ GET
 	"bos_id": 3,
 	"access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"
 }
+
+
+
+*******Change Bos action progress********
+/api/v1/boses/actions/progress
+PUT
+{
+  
+  "bos_action": {
+    "bos_action_id": 9,
+     "new_progress": 75
+  },
+  "access_token": "c87f57207dcae62831cffa55e6a4beaf8caf3d5a"
+}
